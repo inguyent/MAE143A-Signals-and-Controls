@@ -1,0 +1,9 @@
+%Code for Question 2b bode plot
+clear
+close all
+zeta=.1
+G=tf(1,[1,0,0]) %definining transfer function G with the exclusion of constant K1
+plot_options=bodeoptions;
+plot_options.MagScale='log';
+plot_options.MagUnits='abs';
+h=bodeplot(G1,plot_options);
