@@ -6,4 +6,4 @@ GD = tf([1,1],[1,100,0,0]) %definining function G*D with the exclusion of consta
 plot_options=bodeoptions;
 plot_options.MagScale='log';
 plot_options.MagUnits='abs';
-h=bodeplot(G1,plot_options);
+h=bodeplot(GD,plot_options);
