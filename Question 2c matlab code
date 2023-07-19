@@ -1,0 +1,3 @@
+%Plots the step response
+sys = tf(1,[1,0,0]) %defining system G(s)
+step(sys)
