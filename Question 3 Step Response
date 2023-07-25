@@ -1,0 +1,3 @@
+%Plots the step resonse for system T(s)
+T = tf(1,[1,5])
+step(T)
