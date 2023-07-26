@@ -1,0 +1,3 @@
+%Gives a plot of the step response for the system G(s)
+G = tf([-3,-2],[1,5,4])
+step(G)
